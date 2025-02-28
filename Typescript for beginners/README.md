@@ -15,7 +15,7 @@ variable = 345; // Error: Type mismatch
 ```typescript
 let ageWithType: number; // Declared without initial value
 let ageWitType2: number = 22; // Declared with initial value
-agwWithType: 99; // Error: Incorrect syntax
+agwWithType = 99;
 ```
 
 ### Union Types (OR Operator)

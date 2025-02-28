@@ -278,6 +278,24 @@ const testMe3: IPostEvenBetter<ICategory> = {
 };
 ```
 
+### Alternative Using Alias
+
+```typescript
+type PostAlias<T> = {
+  id: number;
+  title: string;
+  desc: string;
+  extra: T[];
+};
+
+const testMe4: PostAlias<{ id: number; name: string }> = {
+  id: 14,
+  title: "Hello Alias",
+  desc: "TypeScript Notes",
+  extra: [{ id: 1, name: "John" }],
+};
+```
+
 ---
 ### End of Notes
-These notes provide a simplified overview of TypeScript fundamentals while keeping all your original code intact.
+These notes provide a structured overview of TypeScript fundamentals while ensuring adherence to type safety principles.

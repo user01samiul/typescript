@@ -350,4 +350,4 @@
      };
      ```
 
-These examples cover basic component creation, data fetching, prop handling, event management, state management with `useState` and `useReducer`, context API, using `useRef`, generics, and TypeScript utility types in React with TypeScript.
+These examples cover basic component creation, data fetching, prop handling, event management, state management with `useState` and `useReducer`, context API, using `useRef`, generics, and TypeScript utility types in React with TypeScript. 

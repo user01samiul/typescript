@@ -1,4 +1,4 @@
-### Updated Simplified Notes: React with TypeScript
+### React with TypeScript
 
 #### 1. **PostCard Component**
    - **Purpose**: Displays a post with a title and description.
